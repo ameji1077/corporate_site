@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>株式会社TECH</title>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/company.css">
+</head>
+<body>
+  <header class="header">
+    <div class="header-logo">
+      <a href="index.html">
+        <h1>
+          TECH
+        </h1>
+      </a>
+    </div>
+    <nav class="header-nav" id="nav">
+      <ul class="header-nav-list">
+        <li class="header-nav-item"><a href="index.html">ホーム</a></li>
+        <li class="header-nav-item"><a href="service.html">事業内容</a></li>
+        <li class="header-nav-item"><a href="blog.html">社員ブログ</a></li>
+        <li class="header-nav-item"><a href="company.html">会社概要</a></li>
+      </ul>
+    </nav>
+    <div class="menu" id="menu">
+      <span class="menu__line--top"></span>
+      <span class="menu__line--middle"></span>
+      <span class="menu__line--bottom"></span>
+    </div>
+  </header>
+  <main class="main">
+    <div class="company-content">
+      <h2 class="company-title">
+        会社概要
+      </h2>
+    </div>
+    <div class="company-profile">
+      <table>
+        <tr>
+          <th>会社名</th>
+          <td>株式会社TECH</td>
+        </tr>
+        <tr>
+          <th>代表者</th>
+          <td>山田太郎</td>
+        </tr>
+        <tr>
+          <th>所在地</th>
+          <td>東京都渋谷区神宮前</td>
+        </tr>
+        <tr>
+          <th>設立</th>
+          <td>2019/07/17</td>
+        </tr>
+        <tr>
+          <th>従業員数</th>
+          <td>100人</td>
+        </tr>
+        <tr>
+          <th>資本金</th>
+          <td>1000万円</td>
+        </tr>
+      </table>
+    </div>
+    <div class="contact">
+        <h2 class="contact-title">
+          お問い合わせ
+        </h2>
+        <p class="contact-sentence">
+          お仕事のご依頼や採用に関してはお問合せにて承っております。
+        </p>
+      <a class="contact-button" id="openBtn">お問い合わせ</a>
+      <div class="contact-modal" id="contactModal">
+        <div class="contact-modal-content">
+          <div class="contact-modal-inner">
+            <div class="modal-close-button">
+              <input type="button" class="closeBtn" id="closeBtn" value="✖️">
+            </div>
+            <h2 class="contact-modal-title">
+              お問い合わせ
+            </h2>
+            <form action="#" method="post" class="contact-form">
+              <label>
+                会社名<br>
+                <input type="text" name="company" class="contact-form-input">
+              </label><br>
+              <label>
+                お名前 <span>*</span><br>
+                <input type="text" name="name" class="contact-form-input">
+              </label><br>
+              <label>
+                メールアドレス <span>*</span><br>
+                <input type="email" name="email" class="contact-form-input">
+              </label><br>
+              <label>
+                お問合せ内容 <span>*</span><br>
+                <textarea name="textarea" class="contact-form-textarea"></textarea>
+              </label><br>
+              <input type="submit" value="お申し込み" class="contact-form-submit">
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer class="footer">
+      <small class="copyright">
+        &copy; 2020 TECH inc.
+      </small>
+      <nav class="footer-nav">
+        <ul class="footer-nav-list">
+          <li class="footer-nav-item"><a href="index.html">ホーム</a></li>
+          <li class="footer-nav-item"><a href="service.html">事業内容</a></li>
+          <li class="footer-nav-item"><a href="blog.html">社員ブログ</a></li>
+          <li class="footer-nav-item"><a href="company.html">会社概要</a></li>
+        </ul>
+      </nav>
+  </footer>
+  <button class="top-scroll" id="scrollBtn">↑</button>
+  <script src="js/main.js"></script>
+</body>
+</html>
